@@ -10,11 +10,16 @@ body{
     background-position:center;
     background-size:cover;
     color:white;
+    font-family: 'Oxanium', cursive;
 }
 .logo{
     display:block;
     margin:0 auto;
 }
-.personagem{
-    text-decoration: none;
+ul{
+    display:flex;
+    flex-wrap: wrap;
 }
+.personagem{
+    list-style-type: none;
+  }
